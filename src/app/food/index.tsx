@@ -1,12 +1,11 @@
-import PressableButton from '@/components/pressablebutton/Button';
 import { StatusBar } from 'expo-status-bar';
-import { Button, Pressable, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+import PressableButton from '@/components/pressablebutton/Button';
 
 export default function App() {
   return (
     <View style={styles.container}>
-     <PressableButton title="shop now " link="/shoping"  />
-     <PressableButton title="Order food " link="/food" />
+      <Text>food</Text>
     </View>
   );
 }
@@ -17,6 +16,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    gap: 10,
   },
 });
